@@ -12,7 +12,6 @@
     </table>
 
     <h2>Throughput Predictions</h2>
-    {% if throughput | length > 0 %}
     <table>
     <tr> <td>Samples/sec</td> <td>{{ throughput['samples_per_second'] }}</td> </tr>
     <tr> <td>Predicted Max Samples/sec</td> <td>{{ throughput['predicted_max_samples_per_second'] }}</td> </tr>
